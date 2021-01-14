@@ -1,0 +1,74 @@
+body{
+    text-align:center; 
+    background: linear-gradient(aqua,black);
+}
+#ninja{
+ 
+}
+#head{
+    font-size:20px;
+}
+#book{
+    font-size:30px;
+}
+#yes{
+    
+    z-index: 8px;
+}
+#sup{
+   
+    z-index:  10px;
+}
+.menu{
+    list-style: none;
+    cursor: pointer;
+    z-index: 10px;
+    position: fixed;
+    
+}
+#image1{
+    border-radius: 50%;
+    width:100px;
+}
+    .links:hover{
+     background-color:dodgerblue;
+    }
+html{
+    scroll-behavior: smooth;
+}
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+#p{
+width:200px;
+    height: 200px;
+     
+}
+   #j{
+width: 200px;
+    height: 200px;
+       
+}
+#j:hover{
+ transform: scale(1.1)   
+}
+#p:hover{
+    transform: scale(1.1)
+}
+a{
+  text-decoration: none;
+   text-decoration: none;
+    color:red;
+    text-shadow: 2px 2px blue;
+}
+writings a{
+  text-shadow: none !important;
+        text-decoration: underline !important;
+}
+li{
+    display:inline;
+   
+    font-size:40px;
+}
